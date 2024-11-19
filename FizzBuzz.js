@@ -1,6 +1,19 @@
 
 // fizzbuzz function to iterate through all numbers before num
 const fizzBuzz = (num) => {
+
+    // Check if number is negaive
+    if (num < 0) {
+        console.log('\n\tThis is a negative number\n'.yellow)
+        num = num * -1
+    }
+
+    // Check if number is a decimal
+    if (num % 1 !== 0) {
+        console.log('\n\tDecimal numbers are not supported\n'.red)
+    }
+
+
     for (let i = 0; i <= num; i++) {
 
         // Check to see if num is divisible through 3 and 5 first
