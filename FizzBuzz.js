@@ -22,3 +22,8 @@ const fizzBuzz = (num) => {
 
 fizzBuzz(100)
 
+// Edge cases to consider:
+// 1. Negative numbers
+// 2. Decimal numbers
+// 3. Checking for non-integer values
+// 4. Checking for non-number values
